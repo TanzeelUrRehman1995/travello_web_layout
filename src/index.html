@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>Travello</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png" />
+</head>
+
+<body>
+  <header class="fixed z-10 w-full mx-auto top-0 transition-all duration-200  py-10" id="myHeader">
+    <div class="container mx-auto font-Oswald relative text-white">
+      <div class="main">
+        <div class="backgroundImage |h-[148px] px-5">
+          <div class="bg-[url('../assets/images/Banner.jpg')]"></div>
+          <div class="bg-[url('../assets/images/Banner.jpg')]"></div>
+          <div class="bg-[url('../assets/images/Banner.jpg')]"></div>
+        </div>
+
+        <div class="header-main| w-full">
+          <!-- HEADER  -->
+          <div class="nav-area | flex justify-between items-center">
+            <div class="logo |">
+              <a href="#" class="text-[35px] font-bold">Travello</a>
+            </div>
+            <div class="navbar |">
+              <ul class="space-x-10 flex items-center">
+                <li class="inline-block relative">
+                  <a href="#"
+                    class="before:content-[''] before:bg-white before:absolute before:w-[2px] before:h-16 before:left-0 before:right-0 before:mx-auto before:-top-16">Home</a>
+                </li>
+
+                <li class="inline-block relative">
+                  <a href="#"
+                    class="before:content-[''] before:bg-white before:absolute before:w-[2px] before:h-0 before:left-0 before:right-0 before:mx-auto before:-top-16 before:transition-all before:duration-150 hover:before:h-16">About
+                    us</a>
+                </li>
+
+                <li class="inline-block relative">
+                  <a href="#"
+                    class="before:content-[''] before:bg-white before:absolute before:w-[2px] before:h-0 before:left-0 before:right-0 before:mx-auto before:-top-16 before:transition-all before:duration-150 hover:before:h-16">Services</a>
+                </li>
+                <li class="inline-block relative">
+                  <a href="#"
+                    class="before:content-[''] before:bg-white before:absolute before:w-[2px] before:h-0 before:left-0 before:right-0 before:mx-auto before:-top-16 before:transition-all before:duration-150 hover:before:h-16">News</a>
+                </li>
+                <li class="inline-block relative">
+                  <a href="#"
+                    class="before:content-[''] before:bg-white before:absolute before:w-[2px] before:h-0 before:left-0 before:right-0 before:mx-auto before:-top-16 before:transition-all before:duration-150 hover:before:h-16">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="callUs | font-bold text-lg">
+              Call us: 00-56 445 678 33
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Banner Slider Section  -->
+  <section class="relative bg-slate-500">
+    <!-- Swiper -->
+    <div class="swiper mySwiper !h-[834px]">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../assets/images/Banner.jpg" />
+          <h1
+            class="absolute right-0 left-0 top-52 mx-auto w-full text-8xl z-10 font-semibold text-white tracking-tighter">
+            Let us take you away
+          </h1>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/images/Banner.jpg" />
+          <h1
+            class="absolute right-0 left-0 top-52 mx-auto w-full text-8xl z-10 font-semibold text-white tracking-tighter">
+            Let us take you away
+          </h1>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/images/Banner.jpg" />
+          <h1
+            class="absolute right-0 left-0 top-52 mx-auto w-full text-8xl z-10 font-semibold text-white tracking-tighter">
+            Let us take you away
+          </h1>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/images/Banner.jpg" />
+          <h1
+            class="absolute right-0 left-0 top-52 mx-auto w-full text-8xl z-10 font-semibold text-white tracking-tighter">
+            Let us take you away
+          </h1>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/images/Banner.jpg" />
+          <h1
+            class="absolute right-0 left-0 top-52 mx-auto w-full text-8xl z-10 font-semibold text-white tracking-tighter">
+            Let us take you away
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner List  -->
+  <section class="bg-transparent absolute z-10 right-10 top-[300px]">
+    <div class="list w-full">
+      <ul class="space-y-8">
+        <li class="text-end relative text-[#a5a5a5] font-semibold">
+          <a href="#"
+            class="py-2 after:content-[''] after:bg-white after:w-0 after:h-[1px] after:absolute after:z-10 after:right-0 after:-bottom-[5px] after:transition-all after:duration-300 hover:after:w-24 hover:text-white">Offers
+            <span class="pl-6">01</span></a>
+        </li>
+        <li class="text-end relative text-[#a5a5a5] font-semibold">
+          <a href="#"
+            class="py-2 after:content-[''] after:bg-white after:w-0 after:h-[1px] after:absolute after:z-10 after:right-0 after:-bottom-[5px] after:transition-all after:duration-300 hover:after:w-36 hover:text-white">Testimonials
+            <span class="pl-6">02</span></a>
+        </li>
+        <li class="text-end relative text-[#a5a5a5] font-semibold">
+          <a href="#"
+            class="py-2 after:content-[''] after:bg-white after:w-0 after:h-[1px] after:absolute after:z-10 after:right-0 after:-bottom-[5px] after:transition-all after:duration-300 hover:after:w-24 hover:text-white">Latest
+            <span class="pl-6">03</span></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Search for vip trip  -->
+  <section>
+    <div
+      class="container h-[249px] flex justify-center bg-[rgba(255,255,255,0.26)] right-0 left-0 mx-auto absolute z-10 top-[463px] rounded-md">
+      <div class="flex flex-col items-center justify-center">
+        <div class="searchForATrip bg-white rounded-t-md text-center">
+          <h1 class="text-lg font-semibold text-gray-800 px-16 py-4 tracking-tight">
+            Search for a trip
+          </h1>
+        </div>
+        <div class="form | bg-white">
+          <form class="space-x-6 py-5 mx-14">
+            <input type="text" class="bg-[#f2f5f6] focus:outline-none h-[50px] pl-4" placeholder="City" />
+            <input type="text" class="bg-[#f2f5f6] focus:outline-none h-[50px] pl-4" placeholder="Departure" />
+            <input type="text" class="bg-[#f2f5f6] focus:outline-none h-[50px] pl-4" placeholder="Arrival" />
+            <input type="text" class="bg-[#f2f5f6] focus:outline-none h-[50px] pl-4" placeholder="Budget" />
+            <button type="submit" class="bg-[#181818] text-white px-10 py-3 rounded-2xl uppercase font-semibold">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduction  -->
+  <section>
+    <div class="intro | w-full  ">
+      <div
+        class="intro-bg | absolute  z-10 top-[705px] bg-[url('../assets/images/intro.png')] w-full h-[480px] object-cover bg-center bg-no-repeat left-0">
+      </div>
+    </div>
+
+    <div class="relative container mx-auto">
+      <div class="flex justify-between py-[142px]  border-b-[2px]">
+        <div class="topDestination | flex">
+          <div class="imgBeach">
+            <img src="../assets/images/beach.png" class="w-[70px] mr-4" alt="">
+          </div>
+          <div class="beach-suntitle| flex flex-col justify-end">
+            <div class="beach-title">Top Destinations</div>
+            <div class="beach-subtitle">
+              <p>Nulla pretium tincidunt felis, nec.</p>
+            </div>
+          </div>
+        </div>
+        <div class="theBestPrice | flex">
+          <div class="imgWallet">
+            <img src="../assets/images/wallet.png" class="w-[70px] mr-4" alt="">
+          </div>
+          <div class="wallet-suntitle | flex flex-col justify-end">
+            <div class="wallet-title">The Best Prices</div>
+            <div class="wallet-subtitle">
+              <p>Sollicitudin mauris lobortis in.</p>
+            </div>
+          </div>
+        </div>
+        <div class="amazingServices | flex">
+          <div class="imgBeach">
+            <img src="../assets/images/wallet.png" class="w-[70px] mr-4" alt="">
+          </div>
+          <div class="service-suntitle | flex flex-col justify-end">
+            <div class="services-title">Amazing Services</div>
+            <div class="services-subtitle">
+              <p>Nulla pretium tincidunt felis, nec.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Destinations  -->
+  <section>
+    <div class="container mx-auto py-[115px]">
+      <div class="heading">
+        <div class="destination-subtitle | uppercase text-center text-[#72728c] font-normal tracking-widest text-sm">
+          simply amazing places</div>
+        <div class="destination-title | mt-3">
+          <h1 class="text-[48px] font-medium text-center tracking-tight">Popular Destinations</h1>
+        </div>
+      </div>
+
+      <div class="destination-items | flex flex-wrap justify-center  pt-20">
+        <div class="destination-item | relative mx-5 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_1.png" class="w-[360px]" alt="">
+            </div>
+            <div class="special-offer | absolute z-10 top-5 left-3">
+              <a href="#" class="bg-black text-white px-5 py-2 font-semibold tracking-tighter cursor-pointer">Special
+                offer</a>
+            </div>
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">Bali</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+        <div class="destination-item | mx-8 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_2.png" class="w-[360px]" alt="">
+            </div>
+
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">Indonesia</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+        <div class="destination-item | mx-8 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_3.png" class="w-[360px]" alt="">
+            </div>
+
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">San Francisco</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+        <div class="destination-item | mx-8 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_4.png" class="w-[360px]" alt="">
+            </div>
+
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">Paris</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+        <div class="destination-item | mx-8 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_5.png" class="w-[360px]" alt="">
+            </div>
+
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">Phi Phi Island</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+        <div class="destination-item | mx-8 mb-9">
+          <div class="image-div| mb-4">
+            <div class="item-img | ">
+              <img src="../assets/images/destination_6.png" class="w-[360px]" alt="">
+            </div>
+
+          </div>
+
+          <div class="title-heading">
+            <a class="text-3xl font-semibold cursor-pointer">Mykonos</a>
+            <p class="text-[#72728c] text-base">Nulla pretium tincidunt felis, nec.</p>
+            <p class="font-semibold mt-5">From $679</p>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section>
+    <div class="relative testimonials-bg">
+      <div class="bg-[url('../assets/images/testimonials.jpg')]  w-full h-[560px] object-cover bg-center bg-no-repeat">
+      </div>
+      <div class="container mx-auto absolute top-20 left-8">
+        <div class="flex flex-col py-20 space-y-5">
+          <div class="testimonials-subtitle">
+            <h1 class="text-white uppercase text-center font-normal tracking-widest text-sm">simply amazing places</h1>
+          </div>
+          <div>
+            <h1 class="text-center font-semibold tracking-tight text-5xl text-white">Testimonials</h1>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper2 !h-[180px]">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide | !bg-transparent">
+              <div class="flex flex-col justify-between h-[150px] ">
+                <div class="content">
+                  <p class=" right-0 left-0 top-52 mx-auto w-full text-2xl z-10 text-center text-white italic">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel quo incidunt, numquam doloremque
+                    ipsam sequi eveniet laboriosam sapiente nobis voluptate voluptatem reiciendis! Cupiditate excepturi
+                    voluptatum.
+                  </p>
+                </div>
+                <div class="auther | uppercase text-sm text-white font-bold">
+                  john turner, <span class="text-[11px] font-semibold ">client</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide | !bg-transparent">
+              <div class="flex flex-col justify-between h-[150px]">
+                <div class="content">
+                  <p class=" right-0 left-0 top-52 mx-auto w-full text-2xl z-10 text-center text-white italic">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel quo incidunt, numquam doloremque
+                    ipsam sequi eveniet laboriosam sapiente nobis voluptate voluptatem reiciendis! Cupiditate excepturi
+                    voluptatum.
+                  </p>
+                </div>
+                <div class="auther | uppercase text-sm text-white font-bold">
+                  john turner, <span class="text-[11px] font-semibold ">client</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide | !bg-transparent">
+              <div class="flex flex-col justify-between h-[150px]">
+                <div class="content">
+                  <p class=" right-0 left-0 top-52 mx-auto w-full text-2xl z-10 text-center text-white italic">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel quo incidunt, numquam doloremque
+                    ipsam sequi eveniet laboriosam sapiente nobis voluptate voluptatem reiciendis! Cupiditate excepturi
+                    voluptatum.
+                  </p>
+                </div>
+                <div class="auther | uppercase text-sm text-white font-bold">
+                  john turner, <span class="text-[11px] font-semibold">client</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide | !bg-transparent">
+              <div class="flex flex-col justify-between h-[150px]">
+                <div class="content">
+                  <p class=" right-0 left-0 top-52 mx-auto w-full text-2xl z-10 text-center text-white italic">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel quo incidunt, numquam doloremque
+                    ipsam sequi eveniet laboriosam sapiente nobis voluptate voluptatem reiciendis! Cupiditate excepturi
+                    voluptatum.
+                  </p>
+                </div>
+                <div class="auther | uppercase text-sm text-white font-bold">
+                  john turner, <span class="text-[11px] font-semibold">client</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide | !bg-transparent">
+              <div class="flex flex-col justify-between h-[150px]">
+                <div class="content">
+                  <p class=" right-0 left-0 top-52 mx-auto w-full text-2xl z-10 text-center text-white italic">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad vel quo incidunt, numquam doloremque
+                    ipsam sequi eveniet laboriosam sapiente nobis voluptate voluptatem reiciendis! Cupiditate excepturi
+                    voluptatum.
+                  </p>
+                </div>
+                <div class="auther | uppercase text-sm text-white font-bold">
+                  john turner, <span class="text-[11px] font-semibold">client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Trips -->
+  <section>
+    <div class="container mx-auto">
+      <div class="flex justify-between py-24 px-10">
+        <div class="w-[60%] left-aside  flex flex-col justify-between ">
+          <div class="trip-1  | flex">
+            <div class="trip-1-img | mr-8 align-middle	">
+              <img src="../assets/images/trip-1.png" class="w-[490px]">
+            </div>
+            <div class="trip-1-content">
+              <div class="flex">
+                <div class="text-5xl mr-1 font-medium">02</div>
+                <div class="flex items-end text-[#72728c] uppercase text-sm font-semibold tracking-wide">june</div>
+              </div>
+
+              <div class="my-4">
+                <div>
+                  <a href="#" class="text-2xl font-semibold text-[#181818]">Best tips to travel light</a>
+                </div>
+
+                <div>
+                  <a href="#" class="uppercase text-[11px] text-[#72728c] font-medium tracking-widest">lifestyle &
+                    travel</a>
+                </div>
+              </div>
+              <div>
+                <p class="text-[#72728c] text-sm">Pellentesque sit amet elementum ccumsan sit amet mattis eget,
+                  tristique at
+                  leo.
+                  Vivamus
+                  massa.Tempor massa et laoreet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="trip-2  | flex">
+            <div class="trip-1-img | mr-8">
+              <img src="../assets/images/trip-2.png" class="w-[470px]">
+            </div>
+            <div class="trip-1-content">
+              <div class="flex">
+                <div class="text-5xl mr-1 font-medium">01</div>
+                <div class="flex items-end text-[#72728c] uppercase text-sm font-semibold tracking-wide">june</div>
+              </div>
+
+              <div class="my-4">
+                <div>
+                  <a href="#" class="text-2xl font-semibold text-[#181818]">Best tips to travel light</a>
+                </div>
+
+                <div>
+                  <a href="#" class="uppercase text-[11px] text-[#72728c] font-medium tracking-widest">lifestyle &
+                    travel</a>
+                </div>
+              </div>
+              <div>
+                <p class="text-[#72728c] text-sm">Tempor massa et laoreet malesuada. Pellentesque sit amet elementum
+                  ccumsan sit
+                  amet mattis eget, tristique at leo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="trip-3  | flex">
+            <div class="trip-1-img | mr-8">
+              <img src="../assets/images/trip-3.png" class="w-[390px]">
+            </div>
+            <div class="trip-1-content">
+              <div class="flex">
+                <div class="text-5xl mr-1 font-medium">29</div>
+                <div class="flex items-end text-[#72728c] uppercase text-sm font-semibold tracking-wide">may</div>
+              </div>
+
+              <div class="my-4">
+                <div>
+                  <a href="#" class="text-2xl font-semibold text-[#181818]">Best tips to travel light</a>
+                </div>
+
+                <div>
+                  <a href="#" class="uppercase text-[11px] text-[#72728c] font-medium tracking-widest">lifestyle &
+                    travel</a>
+                </div>
+              </div>
+              <div>
+                <p class="text-[#72728c] text-sm">Vivamus massa.Tempor massa et laoreet malesuada. Aliquam nulla nisl,
+                  accumsan
+                  sit amet mattis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-aside | w-[35%] relative overflow-hidden">
+          <div class="travello_main | w-full h-[659px]">
+            <div
+              class="background | bg-[url('../assets/images/right-aside.png')] h-[100%] bg-cover bg-center bg-no-repeat">
+              <div
+                class="bg-[rgba(45,143,197,0.7)] w-[150%] h-[400px] rotate-12 absolute z-10 -bottom-[160px] -left-52">
+              </div>
+              <div class="bg-[rgba(237,35,69,0.7)] w-[150%] h-[400px] -rotate-12 absolute z-10 -bottom-[160px] "></div>
+              <a href="#">
+                <div class="content-div | w-full h-[100%] flex justify-center absolute z-20 bottom-14 items-end">
+
+                  <div class="flex justify-between flex-col w-[250px] text-white">
+                    <span class="font-semibold text-5xl text-center">Get a 20% Discount</span>
+                    <span class="font-medium text-center">Buy Your Vacation Online Now</span>
+                  </div>
+
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer | block relative">
+    <div
+      class="footer-bg-fixed | bg-fixed w-full h-[527px] bg-[url('../assets/images/footer-1.jpg')] bg-no-repeat bg-cover bg-[center_center] absolute top-0 left-0 z-10">
+    
+
+    <div class="container mx-auto text-white">
+      <div class="newsletter | flex flex-col ">
+        <div class="my-12">
+          <div class="subscribtion-title | text-center text-3xl font-semibold">
+            Subscribe to our newsletter to get the latest trends & news
+          </div>
+          <div class="subtitle | text-center text-xl font-thin">
+            Join our database NOW!
+          </div>
+        </div>
+
+        <div class="subscribtion-form">
+          <div class="form-container |">
+            <form class="flex justify-around">
+              <label for="name">
+                <input type="text" name="name" id="" placeholder="Name" class="bg-[rgba(255,255,255,0.5)] focus:outline-none h-[50px] w-[332px] placeholder:italic placeholder:text-white p-3 text-xs hover:border-b-2">
+              </label>
+              <label for="email">
+                <input type="email" name="email" id="" placeholder="Your e-mail" class="bg-[rgba(255,255,255,0.5)] focus:outline-none h-[50px] w-[616px] placeholder:italic placeholder:text-white p-3 text-xs hover:border-b-2">
+              </label>
+              <button class="uppercase bg-[rgba(255,255,255,0.5)] font-semibold px-10 py-3 rounded-2xl">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- contact details  -->
+        <div class="flex justify-around my-12">
+          <div class="callUs | space-y-2 flex flex-col items-center">
+              <img src="../assets/images/sign.svg" class="w-[68px]">
+              <h1 class="uppercase text-xl font-bold">give us a call</h1>
+              <h1>Office Landline: +44 5567 32 664 567</h1>
+              <h1>Mobile: +44 5567 89 3322 332</h1>
+          </div>
+          <div class="walkthroung | space-y-2 flex flex-col items-center">
+              <img src="../assets/images/trekking.svg" class="w-[68px]">
+              <h1 class="uppercase text-xl font-bold">come & drop by</h1>
+              <h1 class="text-center">4124 Barnes Street, Sanford, <br/> FL 32771</h1>
+              
+          </div>
+          <div class="sendMessage | space-y-2 flex flex-col items-center">
+              <img src="../assets/images/around.svg" class="w-[68px]">
+              <h1 class="uppercase text-xl font-bold">send us a message</h1>
+              <h1 >youremail@gmail.com</h1>
+              <h1>Office@yourbusinessname.com</h1>
+          </div>
+        </div>
+
+        <!-- coptright  -->
+        <div class="copyright | text-center text-[#72728c] mt-4">
+          Copyright © 2023 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by <a href="#" class="text-[#007bff] hover:text-[#0056b3]">Tanzeel</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      speed: 1000,
+    });
+  </script>
+
+  <script>
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      autoplay: true,
+      effect: 'flip',
+      speed: 1000,
+      direction: 'vertical',
+      flipEffect: {
+        rotate: -30, // Adjust rotation angle if needed
+        slideShadows: false,
+      }
+    });
+  </script>
+</body>
+
+</html>
